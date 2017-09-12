@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1756DB21F6619630084DC9F /* XBCalendarUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1756DB11F6619630084DC9F /* XBCalendarUp@2x.png */; };
+		F1756DB51F6619930084DC9F /* XBCalendarLast@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1756DB31F6619930084DC9F /* XBCalendarLast@2x.png */; };
+		F1756DB61F6619930084DC9F /* XBCalendarNext@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1756DB41F6619930084DC9F /* XBCalendarNext@2x.png */; };
 		F1EC4A521F5FCDC400BE1E12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EC4A511F5FCDC400BE1E12 /* main.m */; };
 		F1EC4A551F5FCDC400BE1E12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EC4A541F5FCDC400BE1E12 /* AppDelegate.m */; };
 		F1EC4A581F5FCDC400BE1E12 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EC4A571F5FCDC400BE1E12 /* ViewController.m */; };
 		F1EC4A5B1F5FCDC400BE1E12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1EC4A591F5FCDC400BE1E12 /* Main.storyboard */; };
 		F1EC4A5D1F5FCDC400BE1E12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1EC4A5C1F5FCDC400BE1E12 /* Assets.xcassets */; };
 		F1EC4A601F5FCDC400BE1E12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1EC4A5E1F5FCDC400BE1E12 /* LaunchScreen.storyboard */; };
+		F1EC4A6A1F5FCE1F00BE1E12 /* XBCalendarViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EC4A691F5FCE1F00BE1E12 /* XBCalendarViewModel.m */; };
+		F1EC4A6F1F5FDF7900BE1E12 /* XBCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EC4A6E1F5FDF7900BE1E12 /* XBCalendarView.m */; };
+		F1EC4A751F60E1C500BE1E12 /* XBCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EC4A731F60E1C500BE1E12 /* XBCalendarCell.m */; };
+		F1EC4A7A1F60E9EE00BE1E12 /* XBCalendarDateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EC4A791F60E9EE00BE1E12 /* XBCalendarDateTool.m */; };
+		F1EC4A7D1F61246700BE1E12 /* XBCalendarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EC4A7C1F61246700BE1E12 /* XBCalendarModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F1756DB11F6619630084DC9F /* XBCalendarUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "XBCalendarUp@2x.png"; sourceTree = "<group>"; };
+		F1756DB31F6619930084DC9F /* XBCalendarLast@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "XBCalendarLast@2x.png"; sourceTree = "<group>"; };
+		F1756DB41F6619930084DC9F /* XBCalendarNext@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "XBCalendarNext@2x.png"; sourceTree = "<group>"; };
 		F1EC4A4D1F5FCDC400BE1E12 /* XBCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XBCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1EC4A511F5FCDC400BE1E12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F1EC4A531F5FCDC400BE1E12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +37,17 @@
 		F1EC4A5C1F5FCDC400BE1E12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1EC4A5F1F5FCDC400BE1E12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1EC4A611F5FCDC400BE1E12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1EC4A681F5FCE1F00BE1E12 /* XBCalendarViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBCalendarViewModel.h; sourceTree = "<group>"; };
+		F1EC4A691F5FCE1F00BE1E12 /* XBCalendarViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBCalendarViewModel.m; sourceTree = "<group>"; };
+		F1EC4A6D1F5FDF7900BE1E12 /* XBCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBCalendarView.h; sourceTree = "<group>"; };
+		F1EC4A6E1F5FDF7900BE1E12 /* XBCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBCalendarView.m; sourceTree = "<group>"; };
+		F1EC4A721F60E1C400BE1E12 /* XBCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBCalendarCell.h; sourceTree = "<group>"; };
+		F1EC4A731F60E1C500BE1E12 /* XBCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBCalendarCell.m; sourceTree = "<group>"; };
+		F1EC4A771F60E1F700BE1E12 /* XBCalendarLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XBCalendarLayout.h; sourceTree = "<group>"; };
+		F1EC4A781F60E9EE00BE1E12 /* XBCalendarDateTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBCalendarDateTool.h; sourceTree = "<group>"; };
+		F1EC4A791F60E9EE00BE1E12 /* XBCalendarDateTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBCalendarDateTool.m; sourceTree = "<group>"; };
+		F1EC4A7B1F61246700BE1E12 /* XBCalendarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBCalendarModel.h; sourceTree = "<group>"; };
+		F1EC4A7C1F61246700BE1E12 /* XBCalendarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBCalendarModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 		F1EC4A4F1F5FCDC400BE1E12 /* XBCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				F1EC4A671F5FCDE300BE1E12 /* XBCalendarView */,
 				F1EC4A531F5FCDC400BE1E12 /* AppDelegate.h */,
 				F1EC4A541F5FCDC400BE1E12 /* AppDelegate.m */,
 				F1EC4A561F5FCDC400BE1E12 /* ViewController.h */,
@@ -77,6 +100,27 @@
 				F1EC4A511F5FCDC400BE1E12 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1EC4A671F5FCDE300BE1E12 /* XBCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				F1756DB31F6619930084DC9F /* XBCalendarLast@2x.png */,
+				F1756DB41F6619930084DC9F /* XBCalendarNext@2x.png */,
+				F1756DB11F6619630084DC9F /* XBCalendarUp@2x.png */,
+				F1EC4A681F5FCE1F00BE1E12 /* XBCalendarViewModel.h */,
+				F1EC4A691F5FCE1F00BE1E12 /* XBCalendarViewModel.m */,
+				F1EC4A6D1F5FDF7900BE1E12 /* XBCalendarView.h */,
+				F1EC4A6E1F5FDF7900BE1E12 /* XBCalendarView.m */,
+				F1EC4A721F60E1C400BE1E12 /* XBCalendarCell.h */,
+				F1EC4A731F60E1C500BE1E12 /* XBCalendarCell.m */,
+				F1EC4A771F60E1F700BE1E12 /* XBCalendarLayout.h */,
+				F1EC4A781F60E9EE00BE1E12 /* XBCalendarDateTool.h */,
+				F1EC4A791F60E9EE00BE1E12 /* XBCalendarDateTool.m */,
+				F1EC4A7B1F61246700BE1E12 /* XBCalendarModel.h */,
+				F1EC4A7C1F61246700BE1E12 /* XBCalendarModel.m */,
+			);
+			path = XBCalendarView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +183,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1EC4A601F5FCDC400BE1E12 /* LaunchScreen.storyboard in Resources */,
+				F1756DB51F6619930084DC9F /* XBCalendarLast@2x.png in Resources */,
 				F1EC4A5D1F5FCDC400BE1E12 /* Assets.xcassets in Resources */,
+				F1756DB21F6619630084DC9F /* XBCalendarUp@2x.png in Resources */,
 				F1EC4A5B1F5FCDC400BE1E12 /* Main.storyboard in Resources */,
+				F1756DB61F6619930084DC9F /* XBCalendarNext@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,7 +198,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1EC4A6A1F5FCE1F00BE1E12 /* XBCalendarViewModel.m in Sources */,
+				F1EC4A7D1F61246700BE1E12 /* XBCalendarModel.m in Sources */,
+				F1EC4A6F1F5FDF7900BE1E12 /* XBCalendarView.m in Sources */,
+				F1EC4A7A1F60E9EE00BE1E12 /* XBCalendarDateTool.m in Sources */,
 				F1EC4A581F5FCDC400BE1E12 /* ViewController.m in Sources */,
+				F1EC4A751F60E1C500BE1E12 /* XBCalendarCell.m in Sources */,
 				F1EC4A551F5FCDC400BE1E12 /* AppDelegate.m in Sources */,
 				F1EC4A521F5FCDC400BE1E12 /* main.m in Sources */,
 			);
@@ -314,6 +366,7 @@
 				F1EC4A661F5FCDC400BE1E12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

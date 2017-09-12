@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "XBCalendarView.h"
 
 @interface ViewController ()
 
@@ -16,9 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
+- (IBAction)show:(id)sender {
+    XBCalendarView *view = [[XBCalendarView alloc] initWithDate:[NSDate date]];
+    [view show];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
